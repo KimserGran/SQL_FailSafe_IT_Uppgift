@@ -38,7 +38,7 @@ CREATE TABLE [Kunder] (
   [Organisationsnummer] VARCHAR(11),
   [FöretagsNamn] NVARCHAR(100),
   [KundEpost] NVARCHAR(100),
-  [Telefonnummer] VARCHAR(15),
+  [Telefonnummer] VARCHAR(15)
 );
 
 CREATE TABLE [Uppdrag] (
