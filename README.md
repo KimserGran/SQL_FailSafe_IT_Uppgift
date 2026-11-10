@@ -8,6 +8,8 @@ DevSecOps-Reflektion
 1
 	Genom parametriseringen kan vi skydda oss från SQL injektion för det mesta,
 	utöver det finns GRANT, DENY och REVOKE behörigheter som kan användas för att stoppa att databasen skadas om SQL kommer igenom
+
+
 2
 	Jag vet att det går att använda Non-Clustered eller Clustered Index för att snabba upp sökningar
 
