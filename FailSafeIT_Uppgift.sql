@@ -60,17 +60,17 @@ CREATE TABLE [Uppdrag] (
 FYLLER TABLES
 */
 
-Insert into Kunder values
+Insert into Kunder (Organisationsnummer, FöretagsNamn, KundEpost, Telefonnummer) values
 ('112499-0025','Fredriks Hemgjorda Kebab','Freddes@StorSvararen.kebab','070-125 51 52'),
 ('912234-1001','Robins Snickarstuga','Robin@Molijoxer.se','072-555 90 12'),
 ('500322-1234','Kims Katt Massage','Kimpa@MasseraKatter.se','076-124 50 22')
 
-Insert into Konsulter values
+Insert into Konsulter (Personnummer, KonsultNamn, TimPris, KonsultSpecialitet) values 
 ('19701115-1234','Göran Allt', 900,'Kan Göra Allt, specialiserad för allt som finns eller kommer finnas'),
 ('19940402-9850','Per Vers', 1500,'Kärleks pedagog, expert på allt inom kärlek och intimt'),
 ('19990325-8762','Jack Pott', 500,'Spelmissbruk expert, hjälper dig antingen att sluta spela eller fortsätta med garanterad vinst')
 
-insert into Uppdrag values
+insert into Uppdrag (KundId, KonsultId, StartDatum, SlutDatum, RollBeskrivning) values
 (1,1,'2026-11-15','2026-11-24','Fixa svarvarmaskinen, den funkar inte'),
 (1,2,'2026-11-25','2026-11-30','Hjälp mig att flörta med min flickvän'),
 (3,3,'2026-12-01','2026-12-10','Hjälp med mitt spelberoende'),
