@@ -11,3 +11,6 @@ DevSecOps-Reflektion
 2
 	Jag vet att det finns "Create Index" vilket skapar en typ av register eller "hitta lista"
 
+
+
+LUCID CHART LÄNK https://lucid.app/lucidchart/b2f73ef0-1d91-4ce5-aed5-46327008dc40/edit?invitationId=inv_4d96e4c9-9636-4641-a4d0-f2a670d7921d&page=0_0#
